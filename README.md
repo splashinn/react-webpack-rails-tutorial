@@ -1,86 +1,5 @@
 [![Codeship Build Status](https://codeship.com/projects/287b26d0-0c05-0133-7a33-02e67aca5f06/status?branch=master)](https://app.codeship.com/projects/90975) [![Build Status](https://travis-ci.org/shakacode/react-webpack-rails-tutorial.svg?branch=code_coverage-linting)](https://travis-ci.org/shakacode/react-webpack-rails-tutorial) [![Dependency Status](https://gemnasium.com/shakacode/react-webpack-rails-tutorial.svg)](https://gemnasium.com/shakacode/react-webpack-rails-tutorial) [![Code Climate](https://codeclimate.com/github/shakacode/react-webpack-rails-tutorial/badges/gpa.svg)](https://codeclimate.com/github/shakacode/react-webpack-rails-tutorial) [![Coverage Status](https://coveralls.io/repos/shakacode/react-webpack-rails-tutorial/badge.svg?branch=master&service=github)](https://coveralls.io/github/shakacode/react-webpack-rails-tutorial?branch=master)
 
-*If this projects helps you, please give us a star!*
-
-## Thank you from Justin Gordon and [ShakaCode](http://www.shakacode.com)
-
-Thank you for considering using [React on Rails](https://github.com/shakacode/react_on_rails).
-
-* **Video:** [Front-End Sadness to Happiness: The React on Rails Story](https://www.youtube.com/watch?v=SGkTvKRPYrk): History, motivations, philosophy, and overview.
-* *[Click here for talk slides](http://www.shakacode.com/talks).*
-
-We at [ShakaCode](http://www.shakacode.com) are a small, boutique, remote-first application development company. We fund this project by:
-
-* Providing priority support and training for anything related to React + Webpack + Rails in our [Coaching Program](http://www.shakacode.com/work/shakacode-coaching-plan.pdf).
-* Building custom web and mobile (React Native) applications. We typically work with a technical founder or CTO and instantly provide a full development team including designers.
-* Migrating **Angular** + Rails to React + Rails. You can see an example of React on Rails and our work converting Angular to React on Rails at [egghead.io](https://egghead.io/browse/frameworks).
-* Augmenting your team to get your product completed more efficiently and quickly.
-
-My article "[Why Hire ShakaCode?](https://blog.shakacode.com/can-shakacode-help-you-4a5b1e5a8a63#.jex6tg9w9)" provides additional details about our projects.
-
-If any of this resonates with you, please email me, [justin@shakacode.com](mailto:justin@shakacode.com). I offer a free half-hour project consultation, on anything from React on Rails to any aspect of web or mobile application development for both consumer and enterprise products.
-
-We are **[currently looking to hire](http://www.shakacode.com/about/#work-with-us)** like-minded developers that wish to work on our projects, including [Friends and Guests](https://www.friendsandguests.com).
-
-I appreciate your attention and sharing of these offerings with anybody that we can help. Your support allows me to bring you and your team [front-end happiness in the Rails world](https://www.youtube.com/watch?v=SGkTvKRPYrk).
-
-Aloha and best wishes from the ShakaCode team!
-
-------
-
-# Community
-Please [**click to subscribe**](https://app.mailerlite.com/webforms/landing/l1d9x5) to keep in touch with Justin Gordon and [ShakaCode](http://www.shakacode.com/). I intend to send announcements of new releases of React on Rails and of our latest [blog articles](https://blog.shakacode.com) and tutorials. Subscribers will also have access to **exclusive content**, including tips and examples.
-
-[![2017-01-31_14-16-56](https://cloud.githubusercontent.com/assets/1118459/22490211/f7a70418-e7bf-11e6-9bef-b3ccd715dbf8.png)](https://app.mailerlite.com/webforms/landing/l1d9x5)
-
-* **Slack Room**: [Contact us](mailto:contact@shakacode.com) for an invite to the ShakaCode Slack room! Let us know if you want to contribute.
-* **[forum.shakacode.com](https://forum.shakacode.com)**: Post your questions
-* **[@ShakaCode on Twitter](https://twitter.com/shakacode)**
-* For a live, [open source](https://github.com/shakacode/react-webpack-rails-tutorial), example of this gem, see [www.reactrails.com](http://www.reactrails.com).
-
-------
-
-# Testimonials
-From Joel Hooks, Co-Founder, Chief Nerd at [egghead.io](https://egghead.io/), January 30, 2017:
-
-![2017-01-30_11-33-59](https://cloud.githubusercontent.com/assets/1118459/22443635/b3549fb4-e6e3-11e6-8ea2-6f589dc93ed3.png)
-
-For more testimonials, see [Live Projects](PROJECTS.md) and [Kudos](./KUDOS.md).
-
--------
-
-# React on Rails Pro!
-Justin is currently working with a couple contributors on some new private examples that incorporate ShakaCode's best practices for industrial strength apps using React on Rails. If you're interested in getting access to these and/or contributing, [email justin@shakacode.com](mailto:justin@shakacode.com). Technologies will include Webpack v2, Yarn, CSS Modules, Bootstrap v4, Redux-Saga, Normalizr, Reselect, etc.
-
-# Videos
-
-### [React On Rails Tutorial Series](https://www.youtube.com/playlist?list=PL5VAKH-U1M6dj84BApfUtvBjvF-0-JfEU)
-
-1. [History and Motivation](https://youtu.be/F4oymbUHvoY)
-2. [Basic Tutorial Walkthrough](https://youtu.be/_bjScw60FBk)
-3. [Code Walkthrough](https://youtu.be/McQ9UM-_ocQ)
-
-## NEWS
-
-* 2016-09-07: Project migrated to [React on Rails v9 with rails/webpacker](https://github.com/shakacode/react-webpack-rails-tutorial/pull/416).
-* Action Cable was recently added in [PR #355](https://github.com/shakacode/react-webpack-rails-tutorial/pull/355). See [PR#360](https://github.com/shakacode/react-webpack-rails-tutorial/pull/360) for additional steps to make this work on Heroku. Note, you need to be running redis. We installed the free Heroku redis add-on.
-* We made a react-native client: [shakacode/reactrails-react-native-client](https://github.com/shakacode/reactrails-react-native-client/). If you want to hack on this with us, [email justin@shakacode.com](mailto:justin@shakacode.com).
-* We have [some other open PRs](https://github.com/shakacode/react-webpack-rails-tutorial/pulls) of things we may soon be incorporating, including localization and action cable! Stay tuned! If you have opinions of what should or should not get merged, get in touch with [justin@shakacode.com](mailto:justin@shakacode.com).
-
-This tutorial app demonstrates advanced functionality beyond what's provided by the React on Rails generators, mostly in the area of Webpack and React usage. Due to the architecture of placing all client side assets in the `/client` directory, React on Rails supports just about anything that Webpack and JavaScript can do, such as:
-
-1. **Handling of Sass and Bootstrap**: This tutorial uses [CSS modules via Webpack](https://github.com/css-modules/css-modules) so that all your client side configuration can be handled in a pure JavaScript tooling manner. This allows for hot reloading and a better separation of concerns (Rails for server-side functionality versus NPM/Webpack for all things client side). The alternative approach of using the traditional Rails Asset Pipeline for your CSS is simpler and supported by [React on Rails](https://github.com/shakacode/react_on_rails). _If you are looking for more information about using assets in your client JavaScript, check out the React on Rails docs: [Rails Assets](https://github.com/shakacode/react_on_rails/blob/master/docs/additional-reading/rails-assets.md) and [Webpack, the Asset Pipeline, and Using Assets w/ React](https://github.com/shakacode/react_on_rails/blob/master/docs/additional-reading/rails-assets-relative-paths.md). For real examples, look at the Webpack config files in the [client/](https://github.com/shakacode/react-webpack-rails-tutorial/tree/master/client) directory of this project, as well as some of the components that are using the client side assets (ex. [CommentScreen component](https://github.com/shakacode/react-webpack-rails-tutorial/blob/master/client/app/bundles/comments/components/CommentScreen/CommentScreen.jsx))._
-1. **Hot Reloading with Rails**: If you want to implement hot reloading after using React on Rails generators, then see [Hot Reloading of Assets For Rails Development](https://github.com/shakacode/react_on_rails/blob/master/docs/additional-reading/hot-reloading-rails-development.md). The tutorial has different startup scripts than the generators. The dev mode has the WebapackDev server providing the JS and CSS assets to the tutorial. This means you get **HOT RELOADING** of your JS and CSS within your Rails app.
-
-# React, Redux, React-Bootstrap, ES7, Webpack, Rails Demo
-## Server Rendering via the [react_on_rails gem](https://github.com/shakacode/react_on_rails)
-
-#### Live at [www.reactrails.com](http://www.reactrails.com/)
-##### Check out our [react-native client for this project!](https://github.com/shakacode/react-native-tutorial)
-This is a simple example application that illustrates the use of ReactJs to implement a commenting system. Front-end code leverages both ReactJs and Rails asset pipeline while the backend is 100% Rails. It shows off a little bit of the interactivity of a ReactJs application, allowing the commmenter to choose the form layout. `react-bootstrap` is used for the React components. A pure Rails UI generated from scaffolding is shown for comparison.
-
-You can see this tutorial live here: [http://reactrails.com/](http://reactrails.com/)
-
 ## Table of Contents
 
 + [Demoed Functionality](#demoed-functionality)
@@ -148,7 +67,7 @@ See package.json and Gemfile for versions
 1. `yarn`
 1. `rake db:setup`
 1. `foreman start -f Procfile.hot`
-  1. Open a browser tab to http://localhost:3000 for the Rails app example with HOT RELOADING
+  1. Open a browser tab to http://localhost:5000 for the Rails app example with HOT RELOADING
   2. Try Hot Reloading steps below!
 1. `foreman start -f Procfile.static`
   1. Open a browser tab to http://localhost:3000 for the Rails app example.
