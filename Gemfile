@@ -94,7 +94,7 @@ end
 group :test do
   gem "capybara"
   gem "capybara-screenshot"
-  gem "capybara-webkit"
+# gem "capybara-webkit"
   gem "chromedriver-helper"
   gem "coveralls", require: false
   gem "database_cleaner"
